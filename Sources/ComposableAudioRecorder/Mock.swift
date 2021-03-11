@@ -5,7 +5,9 @@ import Foundation
 
 #if DEBUG
     public extension AudioRecorderManager {
-        static func mock() -> Self { Self() }
+        static func unimplemented() -> Self {
+            Self()
+        }
     }
 
 #endif
